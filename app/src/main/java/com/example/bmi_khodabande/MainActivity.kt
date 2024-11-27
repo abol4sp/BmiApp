@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
 
 
     AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
-
+//
 
 
         sharedPreferences = getSharedPreferences("BMI_Preferences", MODE_PRIVATE)//
