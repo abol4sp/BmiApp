@@ -36,6 +36,16 @@ class asli:AppCompatActivity() {
         binding.textView.animate().translationX(0f).duration = 3000
 
 
+
+
+
+
+
+
+
+
+
+
         binding.textView2.translationX = -1000f
         binding.textView2.animate().translationX(0f).duration = 3000
 
@@ -61,7 +71,7 @@ return true
 
 
                     val dialog = AlertDialog.Builder(this)
-                    dialog.setTitle("برای ارتباط")
+                    dialog.setTitle("برای  ارتباط")
                     dialog.setMessage("abolfazllkhodabande@gmail.com")
                     dialog.setCancelable(false)
                     dialog.setPositiveButton("") { _, _ ->
